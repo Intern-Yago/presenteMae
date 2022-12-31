@@ -1,0 +1,19 @@
+#radio-esposa1:checked ~ #first-esposa{
+	margin-left: 0;
+}
+#radio-esposa2:checked ~ #first-esposa{
+	margin-left: -25%;
+}
+#radio-esposa3:checked ~ #first-esposa{
+	margin-left: -50%;
+}
+
+#radio-esposa1:checked ~ .navigation-auto .auto-btn-esposa1{
+	background-color: white;
+}
+#radio-esposa2:checked ~ .navigation-auto .auto-btn-esposa2{
+	background-color: white;
+}
+#radio-esposa3:checked ~ .navigation-auto .auto-btn-esposa3{
+	background-color: white;
+}

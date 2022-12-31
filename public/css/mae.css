@@ -1,0 +1,19 @@
+#radio-mae1:checked ~ #first-mae{
+margin-left: 0;
+}
+#radio-mae2:checked ~ #first-mae{
+	margin-left: -25%;
+}
+#radio-mae3:checked ~ #first-mae{
+	margin-left: -50%;
+}
+
+#radio-mae1:checked ~ .navigation-auto .auto-btn-mae1{
+	background-color: white;
+}
+#radio-mae2:checked ~ .navigation-auto .auto-btn-mae2{
+	background-color: white;
+}
+#radio-mae3:checked ~ .navigation-auto .auto-btn-mae3{
+	background-color: white;
+}

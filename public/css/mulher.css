@@ -1,0 +1,19 @@
+#radio-mulher1:checked ~ #first-mulher{
+	margin-left: 0;
+}
+#radio-mulher2:checked ~ #first-mulher{
+	margin-left: -25%;
+}
+#radio-mulher3:checked ~ #first-mulher{
+	margin-left: -50%;
+}
+
+#radio-mulher1:checked ~ .navigation-auto .auto-btn-mulher1{
+	background-color: white;
+}
+#radio-mulher2:checked ~ .navigation-auto .auto-btn-mulher2{
+	background-color: white;
+}
+#radio-mulher3:checked ~ .navigation-auto .auto-btn-mulher3{
+	background-color: white;
+}

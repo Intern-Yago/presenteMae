@@ -1,0 +1,19 @@
+#radio-familia1:checked ~ #first-familia{
+	margin-left: 0;
+}
+#radio-familia2:checked ~ #first-familia{
+	margin-left: -25%;
+}
+#radio-familia3:checked ~ #first-familia{
+	margin-left: -50%;
+}
+
+#radio-familia1:checked ~ .navigation-auto .auto-btn-familia1{
+	background-color: white;
+}
+#radio-familia2:checked ~ .navigation-auto .auto-btn-familia2{
+	background-color: white;
+}
+#radio-familia3:checked ~ .navigation-auto .auto-btn-familia3{
+	background-color: white;
+}

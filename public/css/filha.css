@@ -1,0 +1,19 @@
+#radio-filha1:checked ~ #first-filha{
+	margin-left: 0;
+}
+#radio-filha2:checked ~ #first-filha{
+	margin-left: -25%;
+}
+#radio-filha3:checked ~ #first-filha{
+	margin-left: -50%;
+}
+
+#radio-filha1:checked ~ .navigation-auto .auto-btn-filha1{
+	background-color: white;
+}
+#radio-filha2:checked ~ .navigation-auto .auto-btn-filha2{
+	background-color: white;
+}
+#radio-filha3:checked ~ .navigation-auto .auto-btn-filha3{
+	background-color: white;
+}
