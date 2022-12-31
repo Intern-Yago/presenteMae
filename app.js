@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 require('dotenv').config()
 
-app.use(express.static("public"))
+app.use(express.static(__dirname + '/public'));
 
 app.get('/', (req, res) => {
         let name = req.query["name"]
